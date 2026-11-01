@@ -1,0 +1,280 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   ClarioCRM — design tokens (Tailwind v4 @theme)
+   Terracotta + Orange + Red + Coral design system
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  /* Primary Red scale — #B91C1C as primary-600 */
+  --color-primary-50: #fef2f2;
+  --color-primary-100: #fee2e2;
+  --color-primary-200: #fecaca;
+  --color-primary-300: #fca5a5;
+  --color-primary-400: #f87171;
+  --color-primary-500: #ef4444;
+  --color-primary-600: #b91c1c;
+  --color-primary-700: #991b1b;
+  --color-primary-800: #7f1d1d;
+  --color-primary-900: #6b1616;
+
+  /* Terracotta / Burnt Orange scale — #AF522D as terracotta-600 */
+  --color-terracotta-50: #fdf3f1;
+  --color-terracotta-100: #fae7e3;
+  --color-terracotta-200: #f5cfc7;
+  --color-terracotta-300: #ecaea0;
+  --color-terracotta-400: #e38c78;
+  --color-terracotta-500: #d96b52;
+  --color-terracotta-600: #af522d;
+  --color-terracotta-700: #8c4224;
+  --color-terracotta-800: #6e361e;
+  --color-terracotta-900: #582d1a;
+
+  /* Brighter Orange scale — #E36C3D as orange-500 */
+  --color-orange-50: #fff4f1;
+  --color-orange-100: #ffe5dc;
+  --color-orange-200: #ffceba;
+  --color-orange-300: #ffad8c;
+  --color-orange-400: #ff8a5d;
+  --color-orange-500: #e36c3d;
+  --color-orange-600: #cc5830;
+  --color-orange-700: #a34626;
+  --color-orange-800: #823820;
+  --color-orange-900: #69301c;
+
+  /* Coral scale — #E86E54 as coral-500 */
+  --color-coral-50: #fef0ed;
+  --color-coral-100: #fde1db;
+  --color-coral-200: #fbc4b8;
+  --color-coral-300: #f8a090;
+  --color-coral-400: #f17c67;
+  --color-coral-500: #e86e54;
+  --color-coral-600: #d45d45;
+  --color-coral-700: #b84b39;
+  --color-coral-800: #963d30;
+  --color-coral-900: #783228;
+
+  /* Sidebar — using Coral */
+  --color-sidebar: #e86e54;
+  --color-sidebar-muted: #d45d45;
+  --color-sidebar-border: #b84b39;
+
+  /* Background / canvas */
+  --color-canvas: #f4f4f5;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f4f4f5;
+  --color-surface-hover: #e4e4e7;
+
+  /* Text colors */
+  --color-ink: #18181b;
+  --color-ink-soft: #71717a;
+  --color-ink-muted: #a1a1aa;
+
+  /* Borders / lines */
+  --color-line: #e4e4e7;
+  --color-line-strong: #d4d4d8;
+
+  /* Success — keep existing semantic green */
+  --color-success-50: #ecfdf5;
+  --color-success-100: #d1fae5;
+  --color-success-500: #10b981;
+  --color-success-600: #059669;
+  --color-success-700: #047857;
+
+  /* Warning — amber/orange for semantic warning */
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-500: #f59e0b;
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+
+  /* Error — using primary red */
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-500: #ef4444;
+  --color-error-600: #dc2626;
+  --color-error-700: #b91c1c;
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Sora", "Inter", system-ui, sans-serif;
+
+  /* Radii */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+
+  /* Shadows — restrained, subtle */
+  --shadow-card: 0 1px 2px rgba(24, 24, 27, 0.04), 0 4px 16px -8px rgba(24, 24, 27, 0.08);
+  --shadow-soft: 0 1px 2px rgba(24, 24, 27, 0.03);
+  --shadow-pop: 0 8px 32px -12px rgba(24, 24, 27, 0.12);
+}
+
+/* Base resets ─────────────────────────────────────────────── */
+* {
+  border-color: var(--color-line);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings use the display font for a more premium, branded feel */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Custom slim scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-muted);
+  background-clip: content-box;
+}
+
+/* Reusable utility layer */
+@layer utilities {
+  .card {
+    background: var(--color-surface);
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-card);
+    border: 1px solid var(--color-line);
+  }
+
+  /* Primary red gradient for CTAs and key elements */
+  .brand-gradient {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-primary-600),
+      var(--color-primary-700)
+    );
+  }
+  .brand-gradient-hover:hover {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-primary-700),
+      var(--color-primary-800)
+    );
+  }
+
+  /* Terracotta gradient for secondary CTAs */
+  .terracotta-gradient {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-terracotta-500),
+      var(--color-terracotta-600)
+    );
+  }
+  .terracotta-gradient-hover:hover {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-terracotta-600),
+      var(--color-terracotta-700)
+    );
+  }
+
+  /* Coral gradient for accents */
+  .coral-gradient {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-coral-500),
+      var(--color-coral-600)
+    );
+  }
+  .coral-gradient-hover:hover {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-coral-600),
+      var(--color-coral-700)
+    );
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Static loading states — no animations */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      var(--color-surface-muted) 25%,
+      var(--color-line) 50%,
+      var(--color-surface-muted) 75%
+    );
+    background-size: 200% 100%;
+  }
+}
+
+/* Sonner toast theme — ClarioCRM Terracotta + Orange + Red + Coral ────────── */
+:root {
+  /* Default / info toast — white surface with primary red accent */
+  --normal-bg: var(--color-surface);
+  --normal-text: var(--color-ink);
+  --normal-border: var(--color-line);
+  --normal-icon: var(--color-primary-600);
+
+  /* Success toast — green surface with success green accent */
+  --success-bg: var(--color-success-50);
+  --success-text: var(--color-success-700);
+  --success-border: var(--color-success-100);
+  --success-icon: var(--color-success-600);
+
+  /* Error toast — red surface with primary red accent */
+  --error-bg: var(--color-error-50);
+  --error-text: var(--color-error-700);
+  --error-border: var(--color-error-100);
+  --error-icon: var(--color-error-600);
+
+  /* Warning toast — orange surface with terracotta accent */
+  --warning-bg: var(--color-warning-50);
+  --warning-text: var(--color-warning-700);
+  --warning-border: var(--color-warning-100);
+  --warning-icon: var(--color-terracotta-600);
+
+  /* Info toast — coral surface with coral accent */
+  --info-bg: var(--color-coral-50);
+  --info-text: var(--color-coral-700);
+  --info-border: var(--color-coral-100);
+  --info-icon: var(--color-coral-600);
+
+  /* Toast container */
+  --toast-border-radius: 14px;
+  --toast-gap: 8px;
+  --toast-padding: 16px;
+  --toaster-width: 380px;
+
+  /* Progress bar for timed toasts */
+  --toast-progress-bg: var(--color-primary-200);
+  --toast-progress-color: var(--color-primary-600);
+
+  /* Close button */
+  --close-button-color: var(--color-ink-soft);
+  --close-button-hover-color: var(--color-ink);
+}
