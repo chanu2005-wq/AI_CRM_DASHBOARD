@@ -1,85 +1,110 @@
  
 <h1 align="center">
-  Welcome to <span>ClarioCRM</span>
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="Waving hand" />
+  Welcome to ClarioCRM
+  <img src="https://media.giphy.com/media/hvRJzFzcasrR4ia7z/giphy.gif" width="30px" alt="Waving hand"/>
 </h1>
 
 <div align="center">
-  <img src="./client/src/assets/clariocrm-hero.svg" alt="ClarioCRM — AI-Powered CRM" width="90%" />
+  <img src="./client/src/assets/clariocrm-hero.svg" width="90%" alt="ClarioCRM AI-powered CRM"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=600&lines=AI-Powered+Customer+Relationship+Management;Manage+Leads+%7C+Track+Contacts+%7C+Grow+Business;Built+with+the+MERN+Stack;Smarter+Customer+Management+with+AI" alt="ClarioCRM Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=650&lines=AI-Powered+Customer+Relationship+Management;Manage+Leads+%7C+Track+Contacts+%7C+Grow+Business;Built+with+the+MERN+Stack;Smarter+Customer+Management+with+AI" alt="Typing SVG"/>
 </div>
 
 <p align="center">
   <a href="https://ai-crm-dashboard-blond.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-ClarioCRM-B91C1C?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-OPEN%20CLARIOCRM-E36C3D?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
   </a>
   <a href="https://github.com/chanu2005-wq/AI_CRM_DASHBOARD">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+    <img src="https://img.shields.io/badge/GITHUB-REPOSITORY-181717?style=for-the-badge&logo=github" alt="GitHub"/>
   </a>
-  <img src="https://img.shields.io/badge/Stack-MERN-3C873A?style=for-the-badge" alt="MERN Stack" />
-  <img src="https://img.shields.io/badge/AI-Integrated-E36C3D?style=for-the-badge" alt="AI Integrated" />
-  <img src="https://img.shields.io/badge/License-Project%20License-blue?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/STACK-MERN-3C873A?style=for-the-badge" alt="MERN Stack"/>
+  <img src="https://img.shields.io/badge/AI-POWERED-E36C3D?style=for-the-badge" alt="AI Powered"/>
 </p>
+
+<p align="center">
+  <strong>Smarter CRM. Stronger Business.</strong>
+  <br/>
+  A modern AI-powered Customer Relationship Management platform for managing leads, organizing contacts, and improving business productivity.
+</p>
+
+---
+
+## 📌 Table of Contents
+
+- [About ClarioCRM](#-about-clariocrm)
+- [Features](#-features)
+- [Application Preview](#-application-preview)
+- [Architecture](#-architecture)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Environment Variables](#-environment-variables)
+- [API Overview](#-api-overview)
+- [Demo Account](#-demo-account)
+- [Deployment](#-deployment)
+- [Future Enhancements](#-future-enhancements)
+- [Developer](#-developer)
 
 ---
 
 ## 🚀 About ClarioCRM
 
-<img align="right" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Developer coding animation" />
+**ClarioCRM** is a full-stack Customer Relationship Management application built to simplify customer management and streamline sales workflows.
 
-**ClarioCRM** is a modern, AI-powered Customer Relationship Management platform designed to simplify customer management, organize sales activities, and improve business productivity.
+It provides a centralized workspace where users can manage leads, maintain contact records, monitor business activities, and use AI-powered tools to support everyday CRM operations.
 
-It brings essential CRM functionality into one centralized dashboard, helping users manage leads, maintain customer information, monitor business activities, and access AI-assisted insights.
+### Why ClarioCRM?
 
-### ✨ What makes ClarioCRM useful?
-
-- 📊 **Dashboard:** Get an overview of CRM activities and business performance.
-- 🎯 **Lead Management:** Organize potential customers and track sales opportunities.
-- 👥 **Contact Management:** Maintain and manage customer information.
-- 🤖 **AI Assistance:** Generate lead summaries, email content, and sales insights.
-- 🔐 **Authentication:** Secure access to CRM functionality.
-- 🎨 **Modern UI:** Clean, responsive, and intuitive dashboard experience.
-
-<br clear="right"/>
+- 📊 Centralized dashboard for CRM activities.
+- 🎯 Organized lead and sales opportunity management.
+- 👥 Efficient customer contact management.
+- 🤖 AI-assisted summaries, email generation, and sales insights.
+- 🔐 Authentication and protected application access.
+- 🎨 Modern, responsive user interface.
 
 ---
 
-## 🌟 Key Features
+## ✨ Features
 
 <table>
-  <tr>
-    <td width="50%">
-      <h3>📊 Dashboard Analytics</h3>
-      <p>Centralized dashboard for viewing important CRM information and business activity.</p>
-    </td>
-    <td width="50%">
-      <h3>🎯 Lead Management</h3>
-      <p>Organize leads, maintain their information, and manage sales opportunities.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>👥 Contact Management</h3>
-      <p>Keep customer records organized and accessible from one place.</p>
-    </td>
-    <td width="50%">
-      <h3>🤖 AI-Powered Tools</h3>
-      <p>Use AI-assisted summaries, email generation, and sales insights.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🔐 Authentication</h3>
-      <p>Authentication and protected application access.</p>
-    </td>
-    <td width="50%">
-      <h3>📱 Responsive Interface</h3>
-      <p>A modern interface designed for convenient CRM navigation.</p>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+<h3>📊 Dashboard</h3>
+<ul>
+<li>CRM activity overview</li>
+<li>Business performance metrics</li>
+<li>Visual data representation</li>
+</ul>
+</td>
+<td width="50%">
+<h3>🎯 Lead Management</h3>
+<ul>
+<li>Organize potential customers</li>
+<li>Track lead progress</li>
+<li>Manage sales opportunities</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3>👥 Contact Management</h3>
+<ul>
+<li>Maintain customer records</li>
+<li>Access contact information</li>
+<li>Organize customer details</li>
+</ul>
+</td>
+<td width="50%">
+<h3>🤖 AI Assistant</h3>
+<ul>
+<li>AI-assisted lead summaries</li>
+<li>AI-generated email content</li>
+<li>Sales insights</li>
+</ul>
+</td>
+</tr>
 </table>
 
 ---
@@ -89,75 +114,33 @@ It brings essential CRM functionality into one centralized dashboard, helping us
 <p align="center">
   <strong>Dashboard</strong>
   <br/>
-  <img src="./client/src/assets/dashboard-preview.png" width="100%" alt="ClarioCRM Dashboard Preview"/>
+  <img src="./client/src/assets/dashboard-preview.png" width="100%" alt="ClarioCRM Dashboard"/>
 </p>
 
 <p align="center">
   <strong>Lead Management</strong>
   <br/>
-  <img src="./client/src/assets/leads-preview.png" width="100%" alt="ClarioCRM Lead Management Preview"/>
+  <img src="./client/src/assets/leads-preview.png" width="100%" alt="ClarioCRM Leads"/>
 </p>
 
 <p align="center">
   <strong>Contact Management</strong>
   <br/>
-  <img src="./client/src/assets/contacts-preview.png" width="100%" alt="ClarioCRM Contact Management Preview"/>
+  <img src="./client/src/assets/contacts-preview.png" width="100%" alt="ClarioCRM Contacts"/>
 </p>
 
 ---
 
-## 🛠️ Languages and Technologies
+## 🏗️ Architecture
 
 <p align="center">
-  <a href="https://react.dev/" title="React">
-    <img src="https://skillicons.dev/icons?i=react" width="50" alt="React"/>
-  </a>
-  <a href="https://vite.dev/" title="Vite">
-    <img src="https://skillicons.dev/icons?i=vite" width="50" alt="Vite"/>
-  </a>
-  <a href="https://tailwindcss.com/" title="Tailwind CSS">
-    <img src="https://skillicons.dev/icons?i=tailwind" width="50" alt="Tailwind CSS"/>
-  </a>
-  <a href="https://nodejs.org/" title="Node.js">
-    <img src="https://skillicons.dev/icons?i=nodejs" width="50" alt="Node.js"/>
-  </a>
-  <a href="https://expressjs.com/" title="Express.js">
-    <img src="https://skillicons.dev/icons?i=express" width="50" alt="Express.js"/>
-  </a>
-  <a href="https://www.mongodb.com/" title="MongoDB">
-    <img src="https://skillicons.dev/icons?i=mongodb" width="50" alt="MongoDB"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
-    <img src="https://skillicons.dev/icons?i=javascript" width="50" alt="JavaScript"/>
-  </a>
-  <a href="https://git-scm.com/" title="Git">
-    <img src="https://skillicons.dev/icons?i=git" width="50" alt="Git"/>
-  </a>
-  <a href="https://github.com/" title="GitHub">
-    <img src="https://skillicons.dev/icons?i=github" width="50" alt="GitHub"/>
-  </a>
-  <a href="https://postman.com/" title="Postman">
-    <img src="https://skillicons.dev/icons?i=postman" width="50" alt="Postman"/>
-  </a>
+
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/chanu2005-wq/ai_crm_dashboard?utm_source=readme&utm_medium=badge)
+
 </p>
 
-### AI Integration
-
 <p align="center">
-  <a href="https://ai.google.dev/" title="Google Gemini">
-    <img src="https://img.shields.io/badge/Google%20Gemini-AI%20Integration-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
-  </a>
-  <a href="https://openai.com/" title="OpenAI">
-    <img src="https://img.shields.io/badge/AI-LLM%20Integration-412991?style=for-the-badge&logo=openai&logoColor=white" alt="AI Integration"/>
-  </a>
-</p>
-
----
-
-## 🏗️ System Architecture
-
-<p align="center">
-  <img src="./client/src/assets/clariocrm-architecture" width="100%" alt="ClarioCRM Architecture Diagram"/>
+  <em>Explore the repository architecture using GitDiagram.</em>
 </p>
 
 ### Application Workflow
@@ -168,12 +151,53 @@ flowchart TD
     B --> C[Express REST API]
     C --> D[Authentication Middleware]
     D --> E[Controllers and Services]
-    E --> F[MongoDB Database]
+    E --> F[(MongoDB Database)]
     E --> G[AI Provider]
     F --> H[API Response]
     G --> H
     H --> B
 ```
+
+### Architecture Components
+
+| Layer | Responsibility |
+|---|---|
+| React | User interface and dashboard |
+| Express.js | REST API and request handling |
+| Node.js | Backend runtime |
+| MongoDB | Application data storage |
+| Mongoose | Database models and queries |
+| AI Provider | AI-assisted CRM functionality |
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css" alt="Frontend Technologies"/>
+</p>
+
+### Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend Technologies"/>
+</p>
+
+### AI Integration
+
+<p>
+  <a href="https://ai.google.dev/">
+    <img src="https://img.shields.io/badge/Google%20Gemini-AI%20Integration-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
+  </a>
+</p>
+
+### Development and Deployment
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vercel" alt="Development Tools"/>
+</p>
 
 ---
 
@@ -191,7 +215,8 @@ AI_CRM_DASHBOARD/
 │   │   ├── services/
 │   │   ├── hooks/
 │   │   └── context/
-│   └── package.json
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── server/
 │   ├── config/
@@ -206,11 +231,11 @@ AI_CRM_DASHBOARD/
 └── README.md
 ```
 
-*This is a representative structure; update it if your actual repository layout differs.*
+*The structure is representative; verify folder names against the actual repository.*
 
 ---
 
-## ⚙️ Installation and Setup
+## ⚙️ Getting Started
 
 ### Prerequisites
 
@@ -242,34 +267,16 @@ npm install
 
 ### 4. Configure environment variables
 
-Create the backend `.env` file:
+Create `.env` files in the frontend and backend directories.
 
-```env
-PORT=5001
-MONGODB_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=your_token_expiry
-FRONTEND_URL=http://localhost:5173
-GEMINI_API_KEY=your_gemini_api_key
-GEMINI_MODEL=your_gemini_model
-```
-
-Create the frontend `.env` file:
-
-```env
-VITE_API_URL=http://localhost:5001/api
-```
-
-Use the exact variable names and port configured in your application. Never commit actual secrets.
-
-### 5. Run the backend
+### 5. Start the backend
 
 ```bash
 cd server
 npm run dev
 ```
 
-### 6. Run the frontend
+### 6. Start the frontend
 
 Open another terminal:
 
@@ -282,47 +289,111 @@ Open the local URL provided by Vite.
 
 ---
 
-## 🌐 Live Deployment
+## 🔑 Environment Variables
 
-<p align="center">
-  <a href="https://ai-crm-dashboard-blond.vercel.app/">
-    <img src="https://img.shields.io/badge/Explore%20ClarioCRM-Open%20Live%20Application-E36C3D?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore ClarioCRM"/>
-  </a>
-</p>
+### Backend — `server/.env`
 
-| Layer | Platform |
+```env
+PORT=5001
+MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+JWT_EXPIRES_IN=your_token_expiry
+FRONTEND_URL=http://localhost:5173
+
+GEMINI_API_KEY=your_gemini_api_key
+GEMINI_MODEL=your_gemini_model
+```
+
+### Frontend — `client/.env`
+
+```env
+VITE_API_URL=http://localhost:5001/api
+```
+
+**Security:**
+- Never commit `.env` files.
+- Keep database credentials and AI API keys on the backend.
+- Never expose private API keys through frontend variables.
+- Configure production environment variables separately.
+
+*Use the exact variable names and port values defined by your application.*
+
+---
+
+## 🔌 API Overview
+
+The backend provides REST API functionality for CRM operations.
+
+### AI Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/ai/lead-summary` | AI-assisted lead summary |
+| POST | `/api/ai/generate-email` | AI-generated email content |
+| POST | `/api/ai/sales-insights` | AI-assisted sales insights |
+
+*Verify these paths against your actual Express route definitions before treating this table as the complete API reference.*
+
+---
+
+## 🔐 Demo Account
+
+Explore ClarioCRM using the demo account, if demo authentication is enabled.
+
+| Credential | Value |
+|---|---|
+| Email | `Demo@example.com` |
+| Password | `demo123` |
+
+Use demo credentials only for demonstration. Do not enter real customer information or sensitive data.
+
+---
+
+## 🌐 Deployment
+
+ClarioCRM uses a separated frontend and backend deployment architecture.
+
+| Component | Platform |
 |---|---|
 | Frontend | Vercel |
 | Backend | Render |
 | Database | MongoDB Atlas |
 
+### Live Application
+
+<p align="center">
+  <a href="https://ai-crm-dashboard-blond.vercel.app/">
+    <img src="https://img.shields.io/badge/OPEN%20LIVE%20APPLICATION-E36C3D?style=for-the-badge&logo=vercel&logoColor=white" alt="Open ClarioCRM"/>
+  </a>
+</p>
+
 ---
 
 ## 🔮 Future Enhancements
 
-- Advanced CRM analytics and reporting.
-- Automated customer follow-up reminders.
-- AI-based lead scoring.
+- Advanced sales analytics.
+- Automated customer follow-ups.
+- AI-powered lead scoring.
 - Email and calendar integrations.
 - Role-based access control.
 - Real-time notifications.
-- Exportable CRM reports.
+- Exportable business reports.
 
 ---
 
-## 👨‍💻 Developed By
+## 👨‍💻 Developer
 
 <h2 align="center">CHANUKYA CHANDRA</h2>
 
 <p align="center">
-  <strong>Full Stack Developer | AI/ML Enthusiast</strong>
+  Full Stack Developer | AI/ML Enthusiast
   <br/>
-  Building practical applications with modern web technologies and AI.
+  Building modern web applications with MERN Stack and AI technologies.
 </p>
 
 <p align="center">
   <a href="https://github.com/chanu2005-wq">
-    <img src="https://img.shields.io/badge/GitHub-chanu2005--wq-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-chanu2005--wq-181717?style=for-the-badge&logo=github" alt="GitHub Profile"/>
   </a>
   <a href="https://github.com/chanu2005-wq/AI_CRM_DASHBOARD">
     <img src="https://img.shields.io/badge/Project-ClarioCRM-B91C1C?style=for-the-badge" alt="ClarioCRM Repository"/>
@@ -331,8 +402,8 @@ Open the local URL provided by Vite.
 
 ---
 
-<h3 align="center">⭐ If you find ClarioCRM interesting, explore the live application!</h3>
+<h3 align="center">⭐ Explore ClarioCRM and experience smarter customer management!</h3>
 
 <p align="center">
-  <strong>ClarioCRM — Smarter Customer Management. Better Business Relationships.</strong>
+  <strong>ClarioCRM — Smarter CRM. Stronger Business.</strong>
 </p>
