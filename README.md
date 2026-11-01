@@ -1,113 +1,138 @@
-# ClarioCRM
+ 
+# ClarioCRM — AI-Powered Customer Relationship Management
 
-<div align="center">
+<p align="center">
+  <img src="./client/src/assets/clariocrm-hero.svg" alt="ClarioCRM — AI-Powered CRM Dashboard" width="100%" />
+</p>
 
-<img src="./client/src/assets/clariocrm-hero.svg" alt="ClarioCRM banner" width="100%" />
+<p align="center">
+  <a href="https://ai-crm-dashboard-blond.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20ClarioCRM-B91C1C?style=for-the-badge" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/chanu2005-wq/AI_CRM_DASHBOARD">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  </a>
+  <img src="https://img.shields.io/badge/Stack-MERN-3C873A?style=for-the-badge" alt="MERN Stack" />
+  <img src="https://img.shields.io/badge/AI-Powered-E36C3D?style=for-the-badge" alt="AI Powered" />
+</p>
 
-### Customer relationships. Organized. Intelligent. Connected.
-
-A modern CRM dashboard built with the MERN stack, designed to help manage customers, leads, contacts, and sales activities with AI-powered assistance.
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-Open_ClarioCRM-B91C1C?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-crm-dashboard-blond.vercel.app/)
-[![GitHub](https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/chanu2005-wq/AI_CRM_DASHBOARD)
-
-<br/>
-
-![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-API-FFFFFF?style=flat-square&logo=express&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-AI-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
-
-</div>
+<p align="center">
+  <strong>Manage relationships. Track opportunities. Make smarter decisions.</strong>
+  <br />
+  ClarioCRM is a modern, AI-powered CRM dashboard designed to simplify customer management, streamline sales workflows, and provide actionable business insights through an intuitive interface.
+</p>
 
 ---
 
-## Preview
+## Table of Contents
 
-<div align="center">
+- [Overview](#overview)
+- [Features](#features)
+- [Application Preview](#application-preview)
+- [Technology Stack](#technology-stack)
+- [System Architecture](#system-architecture)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
+- [API Overview](#api-overview)
+- [Demo Account](#demo-account)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
 
-<img src="./client/src/assets/clariocrm-architecture" alt="ClarioCRM dashboard preview" width="100%" />
+## Overview
 
-<sub>Dashboard preview — replace this filename with the matching image from client/src/assets/.</sub>
+**ClarioCRM** is a full-stack Customer Relationship Management application built to help businesses organize customer information, manage leads, monitor sales activities, and improve productivity.
 
-</div>
+The application combines a clean dashboard experience with AI-powered capabilities to reduce repetitive tasks and support data-driven decision-making.
 
-## About
+### Why ClarioCRM?
 
-ClarioCRM is a full-stack customer relationship management application built to bring customer and sales management into one interface. It combines a React-based dashboard with a Node.js and Express backend, MongoDB data storage, and AI-powered productivity features.
-
-The application is designed around a clean dashboard experience, a focused CRM workflow, and a warm red-orange visual identity.
+- **Centralized Management** — Organize leads, contacts, and customer information in one place.
+- **Sales Visibility** — Monitor sales activities and track business performance.
+- **AI Assistance** — Use AI-powered functionality to support CRM workflows.
+- **Modern Interface** — Navigate through a responsive and intuitive dashboard.
+- **Scalable Architecture** — Built with the MERN stack for maintainability and extensibility.
 
 ## Features
 
-| Area | Capabilities |
+### Dashboard
+
+- Centralized overview of CRM activities.
+- Key business metrics and performance summaries.
+- Visual representation of relevant business data.
+- Quick access to important CRM modules.
+
+### Lead Management
+
+- Organize and manage potential customers.
+- Track lead information and progress.
+- Support sales pipeline management.
+- Keep lead-related information accessible.
+
+### Contact Management
+
+- Maintain customer contact information.
+- Organize customer records.
+- Access relevant customer details efficiently.
+
+### AI-Powered Capabilities
+
+- AI-assisted lead summaries.
+- AI-generated email content.
+- Sales insights and business analysis.
+
+### Authentication and User Interface
+
+- User authentication.
+- Protected dashboard access.
+- Consistent navigation and reusable UI components.
+- Responsive dashboard experience.
+
+## Application Preview
+
+The following images are intended to showcase the actual ClarioCRM interface. Replace the paths with screenshots from the application where necessary.
+
+| Dashboard | Leads |
 |---|---|
-| Dashboard | Overview of CRM activity and key information |
-| Lead Management | Organize and manage sales leads |
-| Contact Management | Maintain customer and contact information |
-| Authentication | User authentication and protected application access |
-| AI Lead Summary | Generate AI-assisted lead summaries |
-| AI Email Generation | Generate email content with AI assistance |
-| Sales Insights | Get AI-assisted sales insights |
+| ![Dashboard](./client/src/assets/dashboard-preview.png) | ![Leads](./client/src/assets/leads-preview.png) |
 
-<div align="center">
-
-<img src="./client/src/assets/REPLACE_WITH_LEADS_IMAGE.png" alt="ClarioCRM leads management screen" width="100%" />
-
-<sub>Lead management interface</sub>
-
-<br/><br/>
-
-<img src="./client/src/assets/REPLACE_WITH_CONTACTS_IMAGE.png" alt="ClarioCRM contacts management screen" width="100%" />
-
-<sub>Contact management interface</sub>
-
-<br/><br/>
-
-<img src="./client/src/assets/REPLACE_WITH_AI_FEATURES_IMAGE.png" alt="ClarioCRM AI features interface" width="100%" />
-
-<sub>AI-powered CRM features</sub>
-
-</div>
-
-## AI Integration
-
-ClarioCRM integrates Google Gemini for AI-assisted CRM workflows.
-
-- **Lead Summary:** Creates a concise summary of lead information.
-- **Email Generation:** Helps generate professional email content.
-- **Sales Insights:** Provides AI-assisted analysis of sales information.
-
-AI requests are handled by the backend so that provider credentials remain server-side.
+| Contacts | AI Features |
+|---|---|
+| ![Contacts](./client/src/assets/contacts-preview.png) | ![AI Features](./client/src/assets/ai-preview.png) |
 
 ## Technology Stack
 
-| Layer | Technologies |
+| Category | Technologies |
 |---|---|
-| Frontend | React.js, Vite, JavaScript |
+| Frontend | React.js, JavaScript, Vite |
+| Styling | Tailwind CSS, CSS |
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose |
-| AI | Google Gemini API |
-| Authentication | JWT-based authentication |
+| Authentication | JWT-based authentication, if configured |
+| AI Integration | Google Gemini, if configured |
+| API Communication | REST APIs |
 | Deployment | Vercel, Render |
-| Database Hosting | MongoDB Atlas |
+| Version Control | Git, GitHub |
 
-## Architecture
+## System Architecture
 
-```mermaid
-flowchart TD
-    A[User] --> B[React + Vite Frontend]
-    B --> C[Express REST API]
-    C --> D[Authentication Middleware]
-    C --> E[CRM Controllers]
-    E --> F[(MongoDB Atlas)]
-    C --> G[AI Service]
-    G --> H[Google Gemini API]
-    C --> B
-```
+ClarioCRM follows a client-server architecture using the MERN stack.
+
+<p align="center">
+  <img src="./client/src/assets/clariocrm-architecture" alt="ClarioCRM System Architecture" width="100%" />
+</p>
+
+### Application Flow
+
+1. The user interacts with the React frontend.
+2. The frontend sends HTTP requests to the Express API.
+3. Express routes requests to the appropriate controllers and services.
+4. The backend validates requests and performs business operations.
+5. Mongoose communicates with MongoDB to store and retrieve CRM data.
+6. AI-related requests are processed through the backend using the configured AI provider.
+7. The API returns responses to the frontend for display.
 
 ## Project Structure
 
@@ -121,8 +146,10 @@ AI_CRM_DASHBOARD/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── services/
+│   │   ├── hooks/
 │   │   ├── context/
-│   │   └── ...
+│   │   ├── App.jsx
+│   │   └── main.jsx
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -140,128 +167,229 @@ AI_CRM_DASHBOARD/
 └── README.md
 ```
 
-<sub>Illustrative structure; confirm directory names against the current repository.</sub>
+*The structure above is illustrative. Adjust it to match the actual folders and files in the repository.*
 
 ## Getting Started
 
+Follow these steps to run ClarioCRM locally.
+
 ### Prerequisites
 
-- Node.js and npm
-- MongoDB Atlas account or a local MongoDB instance
-- Google Gemini API key
+Make sure you have installed:
 
-### 1. Clone the repository
+- Node.js (LTS recommended)
+- npm
+- MongoDB Atlas account or local MongoDB instance
+- Git
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/chanu2005-wq/AI_CRM_DASHBOARD.git
 cd AI_CRM_DASHBOARD
 ```
 
-### 2. Configure the backend
-
-```bash
-cd server
-npm install
-```
-
-Create a `.env` file in the server directory and configure the variables expected by the backend:
-
-```env
-PORT=5001
-MONGODB_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=your_jwt_expiry
-FRONTEND_URL=http://localhost:5173
-
-GEMINI_API_KEY=your_gemini_api_key
-GEMINI_MODEL=your_supported_gemini_model
-```
-
-Start the backend:
-
-```bash
-npm run dev
-```
-
-### 3. Configure the frontend
-
-Open a second terminal:
+### 2. Install Frontend Dependencies
 
 ```bash
 cd client
 npm install
 ```
 
-Create the frontend environment file:
+### 3. Install Backend Dependencies
+
+Open another terminal:
+
+```bash
+cd server
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create `.env` files in the `client` and `server` directories.
+
+Refer to the environment variable section below.
+
+### 5. Start the Backend
+
+```bash
+cd server
+npm run dev
+```
+
+### 6. Start the Frontend
+
+In another terminal:
+
+```bash
+cd client
+npm run dev
+```
+
+Open the local URL printed by Vite in your browser.
+
+## Environment Variables
+
+### Backend — `server/.env`
+
+```env
+PORT=5001
+MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_secure_jwt_secret
+JWT_EXPIRES_IN=your_token_expiry
+FRONTEND_URL=http://localhost:5173
+
+GEMINI_API_KEY=your_gemini_api_key
+GEMINI_MODEL=your_configured_gemini_model
+```
+
+### Frontend — `client/.env`
 
 ```env
 VITE_API_URL=http://localhost:5001/api
 ```
 
-Start the frontend:
+**Security Notes**
 
-```bash
-npm run dev
-```
+- Never commit `.env` files to GitHub.
+- Keep database credentials, JWT secrets, and AI API keys on the backend.
+- Never expose private API keys through frontend environment variables.
+- Configure production environment variables separately in your deployment platforms.
+- Use `.env.example` files to document required configuration without including secrets.
 
-Open the local URL displayed by Vite.
-
-> **Security:** Never commit `.env` files or expose Gemini API keys, JWT secrets, or database credentials in frontend code.
+*Environment variable names and port values must match the actual application configuration.*
 
 ## API Overview
 
-The AI functionality includes the following backend endpoints:
+The backend exposes REST API endpoints for CRM operations.
+
+### AI Endpoints
 
 | Method | Endpoint | Purpose |
 |---|---|---|
-| POST | `/api/ai/lead-summary` | Generate a lead summary |
+| POST | `/api/ai/lead-summary` | Generate an AI-assisted lead summary |
 | POST | `/api/ai/generate-email` | Generate email content |
-| POST | `/api/ai/sales-insights` | Generate sales insights |
+| POST | `/api/ai/sales-insights` | Generate sales-related insights |
 
-Other authentication and CRM endpoints are available in the backend routes. Refer to the source code for their exact paths, request bodies, and authorization requirements.
+These routes are based on the project's previously documented API functionality. Verify the actual route definitions before relying on them.
 
-## Demo Access
+### Authentication and CRM APIs
 
-A demonstration account is available in the application, if enabled in the deployed environment.
+Authentication, lead, contact, and dashboard endpoints depend on the routes implemented in the backend.
 
-Do not use production administrator credentials in this public README. Demo credentials should only be published if the account is intentionally configured for public access and contains non-sensitive sample data.
+Refer to the server route files for the complete and current API contract.
 
-## Live Deployment
+## Demo Account
 
-<div align="center">
+You can explore the deployed application using the demo account if demo authentication is enabled.
 
-[![Frontend](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-crm-dashboard-blond.vercel.app/)
-
-</div>
-
-| Resource | Link |
+| Field | Value |
 |---|---|
-| Live Application | [Open ClarioCRM](https://ai-crm-dashboard-blond.vercel.app/) |
-| GitHub Repository | [AI_CRM_DASHBOARD](https://github.com/chanu2005-wq/AI_CRM_DASHBOARD) |
-| Frontend Hosting | Vercel |
-| Backend Hosting | Render |
+| Email | `Demo@example.com` |
+| Password | `demo123` |
+
+**Note:** This is a public demonstration account. Do not use real customer information or sensitive data with demo credentials. Keep demo access isolated from administrative accounts.
+
+## Deployment
+
+ClarioCRM uses separate frontend and backend deployments.
+
+| Component | Platform |
+|---|---|
+| Frontend | Vercel |
+| Backend | Render |
 | Database | MongoDB Atlas |
+
+### Frontend Deployment
+
+1. Import the GitHub repository into Vercel.
+2. Set the root directory to `client`.
+3. Configure the production build command:
+
+   ```bash
+   npm run build
+   ```
+
+4. Set the output directory to `dist`.
+5. Configure `VITE_API_URL` with the deployed backend API URL.
+
+### Backend Deployment
+
+1. Create a Render Web Service.
+2. Set the root directory to `server`.
+3. Configure the build command:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure the start command:
+
+   ```bash
+   npm start
+   ```
+
+5. Add the backend environment variables in Render.
+6. Configure MongoDB Atlas network access and database credentials.
+7. Set `FRONTEND_URL` to the deployed frontend origin.
+
+### Live Application
+
+<p align="center">
+  <a href="https://ai-crm-dashboard-blond.vercel.app/">
+    <strong>Open ClarioCRM Live Demo →</strong>
+  </a>
+</p>
 
 ## Future Improvements
 
-- Advanced CRM analytics and reporting
-- More detailed sales pipeline visualization
-- Role-based access control
-- Activity reminders and notifications
-- Additional AI-assisted workflows
+Potential enhancements for future releases:
 
-## Author
+- Advanced sales analytics and reporting.
+- Role-based access control.
+- Automated follow-up reminders.
+- Email and calendar integrations.
+- Advanced lead scoring.
+- AI-powered customer recommendations.
+- Exportable reports and dashboards.
+- Real-time notifications.
 
-**Chanukya Chandra**
+## Contributing
 
-Full Stack Developer | MERN Stack | AI Integration
+Contributions, suggestions, and bug reports are welcome.
 
-<div align="center">
+1. Fork the repository.
+2. Create a feature branch:
 
-[GitHub](https://github.com/chanu2005-wq)
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-<br/>
+3. Commit your changes:
 
-**Built with React, Node.js, MongoDB, and AI.**
+   ```bash
+   git commit -m "feat: add your feature"
+   ```
 
-</div>
+4. Push your branch:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. Open a Pull Request.
+
+## License
+
+This project is available under the license specified in the repository.
+
+---
+
+<p align="center">
+  <strong>ClarioCRM</strong>
+  <br />
+  Smarter Customer Management. Better Business Relationships.
+  <br /><br />
+  Built with the MERN Stack.
+</p>
