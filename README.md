@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./client/src/assets/REPLACE_WITH_YOUR_LOGO_OR_BANNER.svg" alt="ClarioCRM banner" width="100%" />
+<img src="./client/src/assets/clariocrm-hero.svg" alt="ClarioCRM banner" width="100%" />
 
 ### Customer relationships. Organized. Intelligent. Connected.
 
@@ -29,7 +29,7 @@ A modern CRM dashboard built with the MERN stack, designed to help manage custom
 
 <div align="center">
 
-<img src="./client/src/assets/REPLACE_WITH_DASHBOARD_IMAGE.png" alt="ClarioCRM dashboard preview" width="100%" />
+<img src="./client/src/assets/clariocrm-architecture.png" alt="ClarioCRM dashboard preview" width="100%" />
 
 <sub>Dashboard preview — replace this filename with the matching image from client/src/assets/.</sub>
 
