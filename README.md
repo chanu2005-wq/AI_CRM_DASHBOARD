@@ -1,249 +1,217 @@
-# 🟠 ClarioCRM
-### Intelligent CRM. Smarter Relationships. Better Decisions.
+# ClarioCRM
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:AF522D,50:E36C3D,100:B91C1C&text=ClarioCRM&fontSize=58&fontColor=ffffff&fontAlignY=42&desc=AI-Powered%20Customer%20Relationship%20Management&descAlignY=68&descSize=16" width="100%" alt="ClarioCRM SVG Hero Banner" />
+  <img src="docs/assets/clariocrm-hero.svg" width="100%" alt="ClarioCRM — Intelligent Customer Relationship Management" />
 </p>
 
 <p align="center">
-  <strong>A modern CRM platform powered by the MERN stack and Google Gemini AI.</strong>
+  <strong>Turn customer relationships into meaningful business growth.</strong>
+  <br />
+  An AI-powered CRM dashboard for managing leads, customers, sales workflows and business insights.
 </p>
 
 <p align="center">
-  <a href="YOUR_VERCEL_URL">🌐 Live Application</a> •
-  <a href="https://github.com/chanu2005-wq/AI_CRM_DASHBOARD">📦 Repository</a> •
-  <a href="#-features">✨ Features</a> •
-  <a href="#-installation">⚙️ Installation</a>
+  <a href="YOUR_VERCEL_URL">LIVE APPLICATION ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/chanu2005-wq/AI_CRM_DASHBOARD">SOURCE CODE</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-API-000000?style=flat-square&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Gemini-AI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/Deployment-Live-success?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/chanu2005-wq/AI_CRM_DASHBOARD?style=flat-square&color=AF522D" />
+  <img src="https://img.shields.io/github/repo-size/chanu2005-wq/AI_CRM_DASHBOARD?style=flat-square&color=E36C3D" />
+  <img src="https://img.shields.io/badge/React-Vite-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
 </p>
 
 ---
 
-## 👀 Product Showcase
+## Product in Action
 
 <p align="center">
-  <img src="docs/assets/clariocrm-demo.gif" width="100%" alt="ClarioCRM product walkthrough GIF" />
+  <img src="docs/assets/clariocrm-demo.gif" width="100%" alt="ClarioCRM application walkthrough" />
 </p>
 
 <p align="center">
-  <em>Product walkthrough — dashboard, CRM workflows and AI-powered features.</em>
+  <sub>Application walkthrough · Dashboard · Lead management · AI-powered workflows</sub>
 </p>
+
+> Replace the demo GIF with an actual recording of the deployed application. If you haven't created it yet, the screenshot gallery below can serve as the initial product showcase.
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" width="48%" alt="ClarioCRM Dashboard" />
-  <img src="docs/screenshots/leads.png" width="48%" alt="ClarioCRM Lead Management" />
+  <img src="docs/screenshots/dashboard.png" width="49%" alt="ClarioCRM Dashboard" />
+  <img src="docs/screenshots/leads.png" width="49%" alt="ClarioCRM Lead Management" />
 </p>
-
 <p align="center">
-  <img src="docs/screenshots/contacts.png" width="48%" alt="Contact Management" />
-  <img src="docs/screenshots/ai-features.png" width="48%" alt="AI Features" />
+  <img src="docs/screenshots/contacts.png" width="49%" alt="ClarioCRM Contacts" />
+  <img src="docs/screenshots/ai-features.png" width="49%" alt="ClarioCRM AI Features" />
 </p>
-
-> **Note:** Add your actual screenshots and product walkthrough GIF at the paths above. These are asset placeholders, not live application captures.
 
 ---
-
-## 📑 Table of Contents
 
 <details open>
-<summary><strong>Explore ClarioCRM Documentation</strong></summary>
+<summary><strong>📚 Explore Documentation</strong></summary>
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [AI Capabilities](#-ai-powered-capabilities)
-- [Technology Stack](#-technology-stack)
-- [Architecture](#-system-architecture)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Environment Variables](#-environment-variables)
-- [Demo Account](#-demo-account)
-- [API Reference](#-api-reference)
-- [Deployment](#-deployment)
-- [Security](#-security)
-- [GitHub Statistics](#-github-statistics)
-- [Roadmap](#-future-roadmap)
-- [Author](#-author)
+- [01 — Introduction](#-introduction)
+- [02 — Features](#-features)
+- [03 — AI Capabilities](#-ai-capabilities)
+- [04 — Technology Stack](#-technology-stack)
+- [05 — Architecture](#-architecture)
+- [06 — Project Structure](#-project-structure)
+- [07 — Installation](#-getting-started)
+- [08 — Environment Configuration](#-environment-configuration)
+- [09 — Demo Account](#-demo-account)
+- [10 — API Reference](#-api-reference)
+- [11 — Deployment](#-deployment)
+- [12 — Security](#-security)
+- [13 — GitHub Activity](#-github-activity)
+- [14 — Future Improvements](#-future-improvements)
+- [15 — Author](#-author)
 
 </details>
 
 ---
 
-## 🚀 Overview
+## Introduction
 
-**ClarioCRM** is an AI-powered Customer Relationship Management platform designed to simplify sales operations, manage customer relationships and improve business productivity.
+**ClarioCRM** is a full-stack Customer Relationship Management application that brings customer management, sales tracking and AI-assisted workflows into one centralized dashboard.
 
-Built using the MERN stack, ClarioCRM combines a modern dashboard experience with secure REST APIs, MongoDB data persistence and Google Gemini AI integration.
+Traditional CRM workflows often involve switching between multiple tools to manage customer details, sales opportunities, follow-ups and communication.
 
-The platform provides a centralized workspace for managing leads, contacts, sales pipelines, tasks and notes while using AI to assist with customer communication and sales insights.
+ClarioCRM provides a unified workspace to organize these activities while using Google Gemini AI to assist with repetitive CRM tasks.
 
-### 🎯 Project Goals
+### What ClarioCRM brings together
 
-- Centralize customer and sales information.
-- Simplify lead and contact management.
-- Improve sales workflow visibility.
-- Reduce repetitive communication tasks with AI.
-- Provide actionable insights from CRM data.
-- Deliver a responsive and intuitive dashboard.
-
----
-
-## ✨ Features
-
-<table>
-<tr>
-<td width="50%">
-
-### 📊 Dashboard Analytics
-Monitor CRM activity, sales performance and business metrics through an interactive dashboard.
-
-</td>
-<td width="50%">
-
-### 🎯 Lead Management
-Create, update, organize and track potential customers throughout the sales process.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 👥 Contact Management
-Maintain customer profiles, company details and relationship information.
-
-</td>
-<td width="50%">
-
-### 📈 Sales Pipeline
-Visualize opportunities and monitor their progress through sales stages.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ✅ Task Management
-Organize follow-ups, manage activities and track task completion.
-
-</td>
-<td width="50%">
-
-### 📝 Notes Management
-Store important customer information and business notes.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔐 Authentication
-JWT-based authentication and protected API access.
-
-</td>
-<td width="50%">
-
-### 🎨 Modern UI
-Consistent visual design, reusable components and responsive layouts.
-
-</td>
-</tr>
-</table>
+| Customer Management | Sales Operations | AI Assistance |
+|:---:|:---:|:---:|
+| Leads and contacts | Pipeline tracking | Lead summaries |
+| Customer notes | Tasks and follow-ups | Email generation |
+| Customer records | Dashboard analytics | Sales insights |
 
 ---
 
-## 🤖 AI-Powered Capabilities
+## Features
 
-ClarioCRM integrates Google Gemini AI to assist with CRM workflows.
+### A workspace for everyday CRM operations
 
-| AI Feature | Functionality |
+| Module | Capabilities |
 |---|---|
-| 🧠 AI Lead Summary | Generate concise summaries from lead information. |
-| ✉️ AI Email Generation | Create contextual email drafts for customer communication. |
-| 📊 AI Sales Insights | Generate insights from available sales information. |
+| **Dashboard** | Centralized view of CRM activity and sales metrics |
+| **Leads** | Create, edit, organize and track potential customers |
+| **Contacts** | Manage customer profiles and company information |
+| **Pipeline** | Track sales opportunities through their stages |
+| **Tasks** | Organize activities and follow-up work |
+| **Notes** | Maintain important customer and business information |
+| **Analytics** | View available sales and CRM performance information |
+| **Authentication** | Account registration, login and protected API access |
 
-### AI Workflow
+### Designed around a consistent visual identity
 
-```mermaid
-flowchart TD
-    A[CRM User] --> B[React Dashboard]
-    B --> C[Express AI API]
-    C --> D[AI Controller]
-    D --> E[Gemini AI Service]
-    E --> F[Google Gemini API]
-    F --> G[Generated Response]
-    G --> D
-    D --> B
-    B --> H[User Reviews Result]
-```
-
-AI-generated content should be reviewed before use in customer communications or important business decisions.
+- Burnt orange and coral-inspired color system.
+- Reusable interface components.
+- Structured dashboard navigation.
+- Responsive application layout.
+- Clear data presentation and CRM workflows.
 
 ---
 
-## 🛠️ Technology Stack
+## AI Capabilities
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vite,js,nodejs,express,mongodb,git,github,vercel" alt="Technology stack icons" />
+  <img src="docs/screenshots/ai-features.png" width="90%" alt="ClarioCRM AI capabilities" />
 </p>
 
-| Layer | Technologies |
-|---|---|
-| Frontend | React.js, Vite, JavaScript |
-| UI | CSS, Tailwind CSS where implemented |
-| API Communication | Axios, REST APIs |
-| Backend | Node.js, Express.js |
-| Database | MongoDB Atlas, Mongoose |
-| Authentication | JSON Web Tokens |
-| AI Integration | Google Gemini API |
-| Version Control | Git, GitHub |
-| Frontend Hosting | Vercel |
-| Backend Hosting | Render |
+Google Gemini integration provides three AI-assisted capabilities.
+
+### 01 · AI Lead Summary
+
+Transforms available lead information into concise summaries to help users understand customer requirements and interactions.
+
+### 02 · AI Email Generation
+
+Creates contextual email drafts to assist with customer communication and sales follow-ups.
+
+### 03 · AI Sales Insights
+
+Generates AI-assisted insights based on available sales information.
+
+**AI workflow**
+
+```mermaid
+flowchart LR
+    A[CRM User] --> B[React Dashboard]
+    B --> C[Express API]
+    C --> D[AI Controller]
+    D --> E[Gemini Service]
+    E --> F[Google Gemini API]
+    F --> E
+    E --> D
+    D --> B
+```
+
+AI-generated content should be reviewed before being used in customer communications or business decisions.
 
 ---
 
-## 🏗️ System Architecture
+## Technology Stack
 
 <p align="center">
-  <img src="https://mermaid.ink/svg/pako:eNqNkk1PwzAMhv9KlBOnQBtQF0JMaCwQY4cQY0w8NLE0VZy4iZs0lRZ9e0lD2nK0p9v5n_0kW8QkK0kq6qJpWJ8m0n1JwQ" width="100%" alt="Architecture diagram placeholder" />
+  <img src="https://skillicons.dev/icons?i=react,vite,js,nodejs,express,mongodb,git,github,vercel" alt="ClarioCRM technology stack" />
+</p>
+
+| Layer | Technology |
+|---|---|
+| Frontend | React.js, Vite, JavaScript |
+| Styling | CSS and existing project UI styling |
+| API communication | Axios, REST APIs |
+| Backend | Node.js, Express.js |
+| Database | MongoDB Atlas |
+| ODM | Mongoose |
+| Authentication | JWT |
+| AI integration | Google Gemini API |
+| Version control | Git and GitHub |
+| Frontend deployment | Vercel |
+| Backend deployment | Render |
+
+---
+
+## Architecture
+
+<p align="center">
+  <img src="docs/assets/clariocrm-architecture.svg" width="100%" alt="ClarioCRM system architecture" />
 </p>
 
 ```mermaid
 flowchart TB
     U[User] --> V[Vercel - React Frontend]
-    V --> A[Axios API Client]
-    A --> R[Render - Express Backend]
-    R --> M[JWT Authentication]
-    R --> C[Controllers and Services]
-    C --> DB[(MongoDB Atlas)]
-    C --> AI[Gemini AI Service]
-    AI --> G[Google Gemini API]
-    G --> AI
-    AI --> C
-    C --> R
-    R --> A
-    A --> V
+    V --> AX[Axios API Client]
+    AX --> R[Render - Express Backend]
+    R --> AUTH[JWT Authentication]
+    R --> CTRL[Controllers and Services]
+    CTRL --> DB[(MongoDB Atlas)]
+    CTRL --> AI[Gemini AI Service]
+    AI --> GOOGLE[Google Gemini API]
+    GOOGLE --> AI
+    AI --> CTRL
+    CTRL --> R
+    R --> AX
+    AX --> V
 ```
 
-### Application Flow
+### Request lifecycle
 
-1. Users interact with the React frontend.
-2. Axios sends requests to the Express REST API.
+1. The user interacts with the React application.
+2. Axios sends requests to the backend REST API.
 3. Authentication middleware validates protected requests.
-4. Controllers process business logic.
-5. Mongoose communicates with MongoDB Atlas.
-6. AI services communicate with Google Gemini through the backend.
-7. Responses are returned to the frontend.
+4. Express controllers process the requested operation.
+5. Mongoose interacts with MongoDB Atlas.
+6. AI-related operations are handled by the backend Gemini service.
+7. The backend returns the response to the frontend.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 AI_CRM_DASHBOARD/
@@ -276,6 +244,8 @@ AI_CRM_DASHBOARD/
 │
 ├── docs/
 │   ├── assets/
+│   │   ├── clariocrm-hero.svg
+│   │   ├── clariocrm-architecture.svg
 │   │   └── clariocrm-demo.gif
 │   └── screenshots/
 │       ├── dashboard.png
@@ -289,7 +259,9 @@ AI_CRM_DASHBOARD/
 
 ---
 
-## ⚙️ Installation
+## Getting Started
+
+Run ClarioCRM locally by following the steps below.
 
 ### Prerequisites
 
@@ -306,12 +278,14 @@ git clone https://github.com/chanu2005-wq/AI_CRM_DASHBOARD.git
 cd AI_CRM_DASHBOARD
 ```
 
-### 2. Backend Setup
+### 2. Install backend dependencies
 
 ```bash
 cd server
 npm install
 ```
+
+### 3. Configure backend environment
 
 Create `server/.env`:
 
@@ -336,7 +310,7 @@ Start the backend:
 npm run dev
 ```
 
-### 3. Frontend Setup
+### 4. Install frontend dependencies
 
 Open another terminal:
 
@@ -345,19 +319,21 @@ cd client
 npm install
 ```
 
+### 5. Configure frontend environment
+
 Create `client/.env`:
 
 ```env
 VITE_API_URL=http://localhost:5001/api
 ```
 
-Start the frontend:
+### 6. Start the frontend
 
 ```bash
 npm run dev
 ```
 
-Open:
+Open the local application:
 
 ```text
 http://localhost:5173
@@ -365,86 +341,80 @@ http://localhost:5173
 
 ---
 
-## 🔑 Environment Variables
+## Environment Configuration
 
-### Backend
+| Variable | Location | Purpose |
+|---|---|---|
+| `PORT` | Backend | Express server port |
+| `NODE_ENV` | Backend | Runtime environment |
+| `MONGODB_URL` | Backend | MongoDB connection |
+| `JWT_SECRET` | Backend | JWT signing secret |
+| `JWT_EXPIRES_IN` | Backend | Token expiration |
+| `FRONTEND_URL` | Backend | Allowed frontend origin |
+| `GEMINI_API_KEY` | Backend | Gemini API credential |
+| `GEMINI_MODEL` | Backend | Configured Gemini model |
+| `VITE_API_URL` | Frontend | Backend API base URL |
 
-| Variable | Description |
-|---|---|
-| `PORT` | Backend server port |
-| `NODE_ENV` | Application environment |
-| `MONGODB_URL` | MongoDB connection string |
-| `JWT_SECRET` | JWT signing secret |
-| `JWT_EXPIRES_IN` | Token expiration |
-| `FRONTEND_URL` | Allowed frontend origin |
-| `GEMINI_API_KEY` | Google Gemini API key |
-| `GEMINI_MODEL` | Supported Gemini model identifier |
-
-### Frontend
-
-| Variable | Description |
-|---|---|
-| `VITE_API_URL` | Backend API base URL |
-
-**Security:** Never expose Gemini API keys, JWT secrets or MongoDB credentials in frontend code or public repositories.
+> Keep all secret credentials on the backend. Never expose Gemini API keys, JWT secrets or MongoDB credentials through frontend environment variables.
 
 ---
 
-## 👤 Demo Account
+## Demo Account
 
-A seeded demo account is available for application demonstrations, provided the demo data has been initialized in the database.
+A seeded demo account is available for demonstration when the corresponding demo user exists in the configured database.
 
-| Credential | Value |
+| Field | Credential |
 |---|---|
 | Email | `Demo@example.com` |
 | Password | `demo123` |
 
-Use this account only for demonstration. Do not reuse the demo password for a real account.
+Use demo credentials only for testing and demonstrations. Do not use them for real customer or production accounts.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
-| Module | Base Route | Purpose |
+| Module | Base endpoint | Purpose |
 |---|---|---|
-| Authentication | `/api/auth` | Registration and login |
-| Leads | `/api/leads` | Lead management |
-| Contacts | `/api/contacts` | Contact management |
-| Tasks | `/api/tasks` | Task management |
-| Notes | `/api/notes` | Notes management |
+| Authentication | `/api/auth` | User authentication |
+| Leads | `/api/leads` | Lead operations |
+| Contacts | `/api/contacts` | Contact operations |
+| Tasks | `/api/tasks` | Task operations |
+| Notes | `/api/notes` | Note operations |
 | Analytics | `/api/analytics` | Dashboard analytics |
-| AI | `/api/ai` | Gemini-powered functionality |
+| AI | `/api/ai` | AI functionality |
 
-### AI Endpoints
+### AI endpoints
 
-| HTTP Method | Endpoint | Description |
+| Method | Endpoint | Description |
 |---|---|---|
-| POST | `/api/ai/lead-summary` | Generate lead summaries |
-| POST | `/api/ai/generate-email` | Generate email drafts |
-| POST | `/api/ai/sales-insights` | Generate sales insights |
+| `POST` | `/api/ai/lead-summary` | Generate a lead summary |
+| `POST` | `/api/ai/generate-email` | Generate an email draft |
+| `POST` | `/api/ai/sales-insights` | Generate sales insights |
 
 Protected endpoints require valid authentication where configured.
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
-ClarioCRM is deployed using the following architecture:
+ClarioCRM uses a cloud-hosted deployment architecture.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel" />
   <img src="https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
   <img src="https://img.shields.io/badge/Database-MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
 </p>
 
-| Component | Platform |
+| Component | Hosting |
 |---|---|
-| Frontend | Vercel |
-| Backend | Render |
+| React frontend | Vercel |
+| Express backend | Render |
 | Database | MongoDB Atlas |
-| AI Provider | Google Gemini |
+| AI provider | Google Gemini |
 
-### Production Environment
+### Production environment
 
 Frontend:
 
@@ -464,66 +434,62 @@ GEMINI_API_KEY=your_gemini_api_key
 GEMINI_MODEL=your_supported_gemini_model
 ```
 
-Configure CORS to allow the exact deployed frontend origin.
+Configure the backend CORS policy to allow the exact production frontend origin.
 
 ---
 
-## 🔐 Security & Reliability
+## Security
 
-- JWT authentication and protected backend routes.
-- Server-side Gemini API integration.
-- Environment-based configuration.
-- User ownership checks for CRM data.
+- Server-side handling of Gemini API credentials.
+- Environment-based secret management.
+- JWT authentication and protected API routes.
+- User ownership checks for CRM records.
 - Separation of frontend and backend responsibilities.
-- Secure handling of database and API credentials.
+- No database credentials or API keys committed to Git.
 
 ---
 
-## 📈 GitHub Statistics
+## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=chanu2005-wq&show_icons=true&theme=transparent&hide_border=true&title_color=AF522D&icon_color=E36C3D&text_color=888888" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanu2005-wq&layout=compact&theme=transparent&hide_border=true&title_color=AF522D&text_color=888888" alt="Most used languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=chanu2005-wq&show_icons=true&hide_border=true&bg_color=00000000&title_color=AF522D&icon_color=E36C3D&text_color=888888" height="165" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanu2005-wq&layout=compact&hide_border=true&bg_color=00000000&title_color=AF522D&text_color=888888" height="165" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chanu2005-wq&theme=transparent&hide_border=true&ring=AF522D&fire=E36C3D&currStreakLabel=AF522D" width="80%" alt="GitHub contribution streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chanu2005-wq&bg_color=00000000&color=AF522D&line=E36C3D&point=B91C1C&area=true&hide_border=true" width="100%" alt="GitHub contribution activity" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chanu2005-wq&bg_color=00000000&color=AF522D&line=E36C3D&point=B91C1C&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+  <img src="https://img.shields.io/github/stars/chanu2005-wq/AI_CRM_DASHBOARD?style=social" alt="Repository stars" />
+  <img src="https://img.shields.io/github/forks/chanu2005-wq/AI_CRM_DASHBOARD?style=social" alt="Repository forks" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/chanu2005-wq/AI_CRM_DASHBOARD?style=social" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/chanu2005-wq/AI_CRM_DASHBOARD?style=social" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/last-commit/chanu2005-wq/AI_CRM_DASHBOARD?style=flat-square&color=AF522D" alt="Last commit" />
-  <img src="https://img.shields.io/github/repo-size/chanu2005-wq/AI_CRM_DASHBOARD?style=flat-square&color=E36C3D" alt="Repository size" />
-</p>
+*GitHub statistics and activity graphs are generated by external services and may be temporarily unavailable.*
 
 ---
 
-## 🛣️ Future Roadmap
+## Future Improvements
 
-Potential future enhancements:
+Potential enhancements for future versions:
 
 - [ ] AI-powered lead scoring.
 - [ ] Advanced sales forecasting.
-- [ ] Automated follow-up reminders.
+- [ ] Automated customer follow-up reminders.
 - [ ] Email service integration.
-- [ ] Advanced reporting and exports.
+- [ ] Advanced reports and exports.
 - [ ] Role-based team management.
-- [ ] Real-time CRM notifications.
+- [ ] Real-time notifications.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 <p align="center">
   <strong>Chanukya Chandra</strong>
-  <br/>
-  Full Stack Developer | AI & Machine Learning Enthusiast
-  <br/><br/>
+  <br />
+  Full Stack Developer · AI & Machine Learning Enthusiast
+  <br /><br />
   <a href="https://github.com/chanu2005-wq">
     <img src="https://img.shields.io/badge/GitHub-chanu2005--wq-181717?style=for-the-badge&logo=github" />
   </a>
@@ -532,7 +498,9 @@ Potential future enhancements:
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=110&color=0:AF522D,100:B91C1C&section=footer&text=Built%20with%20%F0%9F%A7%A1%20ClarioCRM&fontSize=24&fontColor=ffffff" width="100%" alt="ClarioCRM footer banner" />
-  <br/>
-  <strong>Intelligent CRM. Smarter Relationships. Better Decisions.</strong>
+  <strong>ClarioCRM</strong>
+  <br />
+  Intelligent CRM. Smarter Relationships. Better Decisions.
+  <br /><br />
+  Built with React, Node.js, Express, MongoDB and Google Gemini AI.
 </p>
